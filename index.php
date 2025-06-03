@@ -13,7 +13,7 @@
     background-image: url(smoke.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: cover; /* Width auto, height 300px */
+    background-size: cover; /
 }
         .hidden {
             display: none;
@@ -41,7 +41,7 @@
 </nav>
 
 
-<!-- Header area with 3 texts and a line below -->
+
 <div style="
   width: 50%;
   margin: 20px auto 0 auto;
@@ -59,7 +59,7 @@
   <hr style="border: 2px solid black; margin-top: 5px;">
 </div>
 
-<!-- Image container with reduced space between text and image -->
+
 <div style="
   height: 10cm;
   width: 80%;
@@ -73,7 +73,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
+  color: black;     
   font-family: Arial, sans-serif;
 ">
 </div>
@@ -89,7 +89,7 @@
 
         
 
-        <!-- Applet 2 Card -->
+      
         <div class="card" style="width: 18%; height: 300px; position: relative; overflow: hidden; ">
             <img src="SHOP10-removebg-preview 3.png" alt="Applet Image" style="width: 100%; height: 350px; object-fit: contain; margin-bottom: 1px;">
     <div class="card-body" style="flex-grow: 1; color: rgb(0, 0, 0); display: flex; flex-direction: column; justify-content: flex-end; position: relative;">
@@ -97,7 +97,7 @@
     </div>
 </div>
 
-        <!-- Applet 3 Card -->
+ 
         <div class="card" style="width: 18%; height: 300px; position: relative; overflow: hidden; ">
             <img src="SHOW13-removebg-preview 3.png" alt="Applet Image" style="width: 100%; height: 350px; object-fit: contain; margin-bottom: 1px;">
             <div class="card-body" style="flex-grow: 1; color: rgb(0, 0, 0); display: flex; flex-direction: column; justify-content: flex-end; position: relative;">
@@ -111,7 +111,7 @@
                 <a href="applet-2.html" class="btn btn-primary" style="position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); width: 60%;">Go to Applet</a>
             </div>
         </div>
-        <!-- Applet 5 Card -->
+  
         <div class="card" style="width: 18%; height: 300px; position: relative; overflow: hidden; ">
             <img src="SHOP6-removebg-preview 2.png" alt="Applet Image" style="width: 100%; height: 350px; object-fit: contain; margin-bottom: 1px;">
             <div class="card-body" style="flex-grow: 1; color: rgb(0, 0, 0); display: flex; flex-direction: column; justify-content: flex-end; position: relative;">
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-    </div> <!-- End of flex container -->
+    </div>
 </div>
 <a href="dashboard.html" class="text-white ms-auto d-flex align-items-center" style="text-decoration: none;">
   <i class="bi bi-person" style="font-size: 1.8rem; margin-left: auto; margin-right: 20px; transition: color 0.3s;"></i>
