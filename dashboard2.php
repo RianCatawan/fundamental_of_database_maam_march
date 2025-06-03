@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Access control
+
 if (!isset($_SESSION['username']) || ($_SESSION['role'] !== 'admin' && $_SESSION['role'] !== 'editor')) {
     header("Location: index.html");
     exit();
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// DELETE logic
+
 if (isset($_GET['delete'])) {
     $id = intval($_GET['delete']);
     $conn->query("DELETE FROM users WHERE id=$id");
@@ -21,7 +21,7 @@ if (isset($_GET['delete'])) {
     exit();
 }
 
-// Left JOIN simulation to fetch combined data
+
 $sql = "
 SELECT u.id, u.username, u.email, u.role, ul.password AS login_password
 FROM users u
@@ -55,8 +55,8 @@ $result = $conn->query($sql);
         border-collapse: collapse;
         width: 90%;
         background-color: #fff;
-        margin: 0 auto; /* Center the table */
-        margin-top: 100px; /* Push down below navbar */
+        margin: 0 auto; 
+        margin-top: 100px; 
     }
 
     th, td {
